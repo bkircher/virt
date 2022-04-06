@@ -1,0 +1,8 @@
+---
+# file: centos-stream8-hs.yml
+- hosts: centos
+  roles:
+    - common
+    - volatile-journal
+    - epel-repo
+    - hs-repo

@@ -1,0 +1,14 @@
+---
+- hosts: all
+  gather_facts: yes
+
+  roles:
+    - common
+
+  tasks:
+    - name: Print facts
+      debug: var=ansible_facts
+
+    - name: Print /etc/os-release contents
+      debug:
+        var: os_release
