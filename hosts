@@ -1,3 +1,0 @@
-[centos]
-newdemo-1 ansible_host=192.168.122.148
-newdemo-2 ansible_host=192.168.122.161
